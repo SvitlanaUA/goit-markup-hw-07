@@ -99,16 +99,14 @@
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.14;
-
     font-weight: 700;
     letter-spacing: 0.03em;
-
     color: var(--buttoms-text-color--)
 }
 
 .footer-subscribe {
     display: flex;
-
+   
 }
 
 
@@ -124,7 +122,7 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 
     margin-right: 12px;
-
+    color: #ffffff;
 }
 
 .button-footer {
@@ -143,8 +141,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding-left: 28px;
-
-
+   
 }
 
 .icon-send {
@@ -153,4 +150,5 @@
     height: 24px;
     margin-left: 18px;
     fill: var(--buttoms-text-color--);
+    
 }

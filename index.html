@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-     <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>WebStudio</title>
   </head>
+
   <body>
-         <header class="header">
+    <header class="header">
       <div class="container main-nav">
        <nav class="header-nav">
         <a  href="/index.html" lang="en" class="logo"><span class="logo-web">Web</span>Studio
@@ -39,16 +40,14 @@
        </li>
       </ul>
       </div>
-     </header>
+    </header>
     <main>
-      
-       <section class="main section">
-          <div class="container ">
-            <h1 class="main__title"> Ефективні рішення для вашого бізнесу </h1>
-            <button class="main__button" type="button" data-modal-open="">Замовити послугу </button> 
-         </div>
-        </section>
-
+      <section class="main section">
+        <div class="container ">
+          <h1 class="main__title"> Ефективні рішення для вашого бізнесу </h1>
+          <button class="main__button" type="button" data-modal-open="">Замовити послугу </button> 
+        </div>
+      </section>
        <!--section about company-->
       <section class="company section"> 
         <div class="container">
@@ -60,8 +59,8 @@
                 <use href="./images/sprite.svg#icon-antenna"> </use>
               </svg>
             </div>
-            <h3 class="company-title">УВАГА ДО ДЕТАЛЕЙ </h3>
-            <p class="company-description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. </p>
+             <h3 class="company-title">УВАГА ДО ДЕТАЛЕЙ </h3>
+             <p class="company-description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. </p>
            </li>
            <li class="company-item">
             <div class="icon-company">
@@ -94,7 +93,6 @@
         </div>
       </section>
       <section class="work section">
-        
         <div class="container">
            <h2 class="work-title"> Чим ми займаємося </h2>
           <ul class="work-list">
@@ -115,7 +113,6 @@
       </section>
         <!-- section about team-->
       <section class="team section">
-        
        <div class="container">
        <h2 class="team-title">Наша команда </h2>
         <ul class="team-list"> 
@@ -266,7 +263,6 @@
           </ul>
         </div>
       </section>
-
       <section class="section"> 
         <div class="partners container">
           <h2 class="partners__title"> Постійні клієнти </h2>
@@ -319,7 +315,6 @@
           </ul>  
         </div>
       </section>
-      
     </main>
  
     <footer class="footer">
@@ -327,7 +322,7 @@
         <div class="footer-link">
           <a href="/index.html" lang="en" class="footer-logo"><span class="footer-logo-web">Web</span>Studio
           </a> 
-          <address> 
+          <address>
             <ul class="footer-list">
               <li  class="footer-item">
                 <a href="https://goo.gl/maps/2AqovgsvWm5qZZo3A" target="_blank" rel="noopener nofollow noreferrer" class="link-adress">
@@ -337,7 +332,6 @@
               <li  class="footer-item"> <a href="tel:+380961111111" class="link-contacts"> +38 096 111 11 11 </a></li>
             </ul>
           </address>
-  
         </div>
         <div class="footer-icons">
           <p class="title-footer"> ПРИЄДНУЙТЕСЬ 
@@ -374,28 +368,29 @@
           </ul>
         </div>
         <div class="form-footer">
-        
-        <div class="form-email">
+          <div class="form-email ">
           <p class="title-form-footer"> Підпишіться на розсилку</p>
           <form class="footer-subscribe">
-          <label class="form-label" for="email"> </label>
-          <input class="footer-input" type="text" name="email" id="email" placeholder="E-mail"/>
-          <button class="button-footer" type="submit"> Підписатися 
-             <svg class="icon-send" viewBox="0 0 32 32"> 
-              <use href="./images/sprite.svg#icon-send"> </use>
-             </svg>
-          </button>
-        </form>
-      </div>  
-   </footer> 
+            <label class="form-label" for="email"> </label>
+            <input class="footer-input" type="text" name="email" id="email" placeholder="E-mail"/>
+            <button class="button-footer" type="submit"> Підписатися 
+               <svg class="icon-send" viewBox="0 0 32 32"> 
+               <use href="./images/sprite.svg#icon-send"> </use>
+               </svg>
+            </button>
+          </form>
+         </div>
+        </div>
+      </div>
+    </footer>
 
-   <div class="container backdrop is-hidden" data-modal>
+  <div class="container backdrop is-hidden" data-modal>
     <div class="modal">
       <div class="modal-buttom">
         <button class="clouse-botton"  data-modal-close >
           <svg class="svg-close-black"  width="30" >
-            <use href="./images/sprite.svg#icon-close">
-          </use>
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
         </button>
       </div>
       <div class="form">
@@ -422,7 +417,7 @@
             <div class="list-form"> 
               <label class="form-label" for="email"> Пошта </label>
             <div class="form-wrap">
-                <input class="form-input" type="text" name="email" id="email"/>
+                <input class="form-input" type="text" name="mail" id="mail"/>
                   <svg class="icon-form" viewBox="0 0 32 32"> 
                     <use href="./images/sprite.svg#icon-email-black"> </use>
                   </svg>
@@ -432,26 +427,23 @@
               <label class="form-label" for="comment"> Коментар </label>
               <textarea class="form-comment" name="comment" id="comment" 
                placeholder="Введіть текст"></textarea>
-             </div>
-
-             <div class="consent-form">
+            </div>
+            <div class="consent-form">
               <input class="checkbox" type="checkbox" name="topic" value="consent" id="consent"/>
               <label class="consent-titel" for="consent">
-                 <div class="checkbox-form">
+                <span class="checkbox-form">
                   <svg class="icon-Vectors"  width="11" >
-                  <use href="./images/sprite.svg#icon-Vectors">
-                </use>
-              </div>
+                    <use href="./images/sprite.svg#icon-Vectors"> </use>
+                  </svg>
+               </span>
                 Погоджуюся з розсилкою та приймаю <span class="covenant">Умови договору</span></label>
             </div >
               <button class="button-form" type="submit"> Відправити  </button>
-        </div>
-      </form>
-     
+          </form>
+         </div>
     </div>
   </div>    
    <script src="./js/modal.js"></script>
-    
   </body>
 </html>
 

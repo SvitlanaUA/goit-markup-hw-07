@@ -43,7 +43,8 @@
 .modal-buttom {
     width: 30px;
     height: 30px;
-
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function--);
 }
 
 .clouse-botton {
@@ -56,10 +57,19 @@
     border-radius: 50px;
     background-color: var(--buttoms-text-color--);
     cursor: pointer;
-    transition-duration: 250ms;
-    transition-timing-function: var(--timing-function--);
+  
 }
 
+.svg-close-black {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 11px;
+    height: 11px;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function--);
+
+}
 
 .clouse-botton:hover,
 .clouse-botton:focus {
@@ -204,16 +214,7 @@
     color: var(--second-text-color);
 }
 
-.svg-close-black {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 11px;
-    height: 11px;
-    transition-duration: 250ms;
-    transition-timing-function: var(--timing-function--);
 
-}
 
 .icon-Vectors {
     align-items: center;
@@ -235,7 +236,6 @@
 }
 
 .button-form {
-
     width: 200px;
     height: 50px;
     background: var(--active-bg-color);

@@ -806,6 +806,7 @@ textarea {
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   margin-right: 12px;
+  color: #ffffff;
 }
 
 .button-footer {
@@ -887,6 +888,10 @@ textarea {
 .modal-buttom {
   width: 30px;
   height: 30px;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: var(--timing-function--);
+          transition-timing-function: var(--timing-function--);
 }
 
 .clouse-botton {
@@ -899,6 +904,18 @@ textarea {
   border-radius: 50px;
   background-color: var(--buttoms-text-color--);
   cursor: pointer;
+}
+
+.svg-close-black {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 11px;
+  height: 11px;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: var(--timing-function--);
@@ -1067,22 +1084,6 @@ textarea {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-}
-
-.svg-close-black {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 11px;
-  height: 11px;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: var(--timing-function--);
-          transition-timing-function: var(--timing-function--);
 }
 
 .icon-Vectors {
